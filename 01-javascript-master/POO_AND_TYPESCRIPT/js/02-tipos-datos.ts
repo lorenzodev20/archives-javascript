@@ -15,8 +15,8 @@ let booleano:boolean = true;
 let cualquiera: any = "hola2564";
 
 // Arrays
-var lenguajes:Array<any> =["PHP", "Laravel", "JS"];
-
+let lenguajes:Array<string|number> =["PHP", "Laravel", "JS",536.36];
+// Otra forma de definirlo
 let years:any[]= ["DOCE", 13, 14];
 
 // MULTIPLES TIPOS DE DATOS
@@ -33,4 +33,9 @@ type miTipoDato = string | number | boolean; // Defino mi tipo de dato
 let nuevaVar:miTipoDato = "Hola";
 
 
-console.log(cadena, numero, booleano, cualquiera, lenguajes, years);
+console.log('\n Cadena: ',cadena);
+console.log('\n Número: ',numero);
+console.log('\n Booleano: ',booleano);
+console.log('\n Cualquiera: ',cualquiera);
+console.log('\n Lenguajes: ',lenguajes);
+console.log('\n Years: ',years);
